@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f3f6fa;
+}
+
+header {
+    background: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background: #1565c0;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url("https://images.unsplash.com/featured/?technology");
+    background-size: cover;
+    background-position: center;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 38px;
+}
+
+.section {
+    padding: 50px 10%;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0d47a1;
+}
+
+.cards, .metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card, .metric {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.logs {
+    background: #e3f2fd;
+    padding: 25px;
+    border-radius: 10px;
+    font-family: monospace;
+}
+
+.alerts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.alert {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.alert.success {
+    background: #c8e6c9;
+    color: #1b5e20;
+}
+
+.alert.warning {
+    background: #fff9c4;
+    color: #f57f17;
+}
+
+.contact {
+    background: #e3f2fd;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer {
+    background: #1565c0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+button {
+    background: #0d47a1;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #1565c0;
+}
+
